@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_31b1cf6d821747058796413cc07deae6 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_31b1cf6d821747058796413cc07deae6" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_31b1cf6d821747058796413cc07deae6 = L.map(
+                                  'map_31b1cf6d821747058796413cc07deae6',
+                                  {center: [37.7884969,-122.3558473],
+                                  zoom: 9,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_15f937f1491249d18e197535a01f3368 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+        
+    
+            var circle_marker_b5a760de0bcd4c22b05fe2a4263dd2d9 = L.circleMarker(
+                [38.037579250097885,-122.26204370123158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_329505e1fb9445ef9d857a237bb501a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d003bbe013149eb94af57611831c9fe = $('<div id="html_6d003bbe013149eb94af57611831c9fe" style="width: 100.0%; height: 100.0%;">  Contra Costa County, California‎  - Cluster 0</div>')[0];
+                popup_329505e1fb9445ef9d857a237bb501a1.setContent(html_6d003bbe013149eb94af57611831c9fe);
+            
+
+            circle_marker_b5a760de0bcd4c22b05fe2a4263dd2d9.bindPopup(popup_329505e1fb9445ef9d857a237bb501a1);
+
+            
+        
+    
+            var circle_marker_a71dfde00aba4af8979c334404177195 = L.circleMarker(
+                [37.88789894816959,-122.53040271864795],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_c8407e3ad82f4dfb930595062d0941e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_441b4879b72a4ab5be4cee6d0e43ff54 = $('<div id="html_441b4879b72a4ab5be4cee6d0e43ff54" style="width: 100.0%; height: 100.0%;">  Marin County, California‎  - Cluster 0</div>')[0];
+                popup_c8407e3ad82f4dfb930595062d0941e9.setContent(html_441b4879b72a4ab5be4cee6d0e43ff54);
+            
+
+            circle_marker_a71dfde00aba4af8979c334404177195.bindPopup(popup_c8407e3ad82f4dfb930595062d0941e9);
+
+            
+        
+    
+            var circle_marker_4167c1b9e1384c8a93971e9a24143f75 = L.circleMarker(
+                [38.39687427791226,-122.36099084372239],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_0ec472235f014254aef46f2fd0a0a626 = L.popup({maxWidth: '300'});
+
+            
+                var html_20184d7d6569424eb3dcd45a9897cdcf = $('<div id="html_20184d7d6569424eb3dcd45a9897cdcf" style="width: 100.0%; height: 100.0%;">  Napa County, California‎  - Cluster 0</div>')[0];
+                popup_0ec472235f014254aef46f2fd0a0a626.setContent(html_20184d7d6569424eb3dcd45a9897cdcf);
+            
+
+            circle_marker_4167c1b9e1384c8a93971e9a24143f75.bindPopup(popup_0ec472235f014254aef46f2fd0a0a626);
+
+            
+        
+    
+            var circle_marker_689f604e2042464fb6c53a85be69a649 = L.circleMarker(
+                [38.31046996515037,-122.4932698823946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_cdb00bc8ca1643159b1f2267481dd219 = L.popup({maxWidth: '300'});
+
+            
+                var html_715919235739482790069a9b8ef43e98 = $('<div id="html_715919235739482790069a9b8ef43e98" style="width: 100.0%; height: 100.0%;">  Sonoma County, California‎ (17 C - Cluster 0</div>')[0];
+                popup_cdb00bc8ca1643159b1f2267481dd219.setContent(html_715919235739482790069a9b8ef43e98);
+            
+
+            circle_marker_689f604e2042464fb6c53a85be69a649.bindPopup(popup_cdb00bc8ca1643159b1f2267481dd219);
+
+            
+        
+    
+            var circle_marker_1d30b0f55dd2482c9193aa52fa80db06 = L.circleMarker(
+                [37.30327894927281,-121.89362006124473],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_f1de86a7ab644d76885cdeb0fda09e81 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a9f8840ca8e45c1ab414ee3f86af4bb = $('<div id="html_7a9f8840ca8e45c1ab414ee3f86af4bb" style="width: 100.0%; height: 100.0%;">  Santa Clara County, California‎  - Cluster 1</div>')[0];
+                popup_f1de86a7ab644d76885cdeb0fda09e81.setContent(html_7a9f8840ca8e45c1ab414ee3f86af4bb);
+            
+
+            circle_marker_1d30b0f55dd2482c9193aa52fa80db06.bindPopup(popup_f1de86a7ab644d76885cdeb0fda09e81);
+
+            
+        
+    
+            var circle_marker_e004bc7b0a0b4eb9901f66c9f598d6c8 = L.circleMarker(
+                [38.085719745615705,-122.13936127704916],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_9514adb1ae9c4beb9e54519c8bb898e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_7677b6ca4adc43dab28ad08d8a1a115a = $('<div id="html_7677b6ca4adc43dab28ad08d8a1a115a" style="width: 100.0%; height: 100.0%;">  Solano County, California‎ - Cluster 1</div>')[0];
+                popup_9514adb1ae9c4beb9e54519c8bb898e5.setContent(html_7677b6ca4adc43dab28ad08d8a1a115a);
+            
+
+            circle_marker_e004bc7b0a0b4eb9901f66c9f598d6c8.bindPopup(popup_9514adb1ae9c4beb9e54519c8bb898e5);
+
+            
+        
+    
+            var circle_marker_f1ff2c5fc4b34a89a8b7af2a05a5f375 = L.circleMarker(
+                [37.86948000000007,-122.25928999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_2fb351e1d3e54b53939661840369ee4e = L.popup({maxWidth: '300'});
+
+            
+                var html_3dce5c54acc84ef99f1ce700548ae522 = $('<div id="html_3dce5c54acc84ef99f1ce700548ae522" style="width: 100.0%; height: 100.0%;">  Alameda County, California‎  - Cluster 2</div>')[0];
+                popup_2fb351e1d3e54b53939661840369ee4e.setContent(html_3dce5c54acc84ef99f1ce700548ae522);
+            
+
+            circle_marker_f1ff2c5fc4b34a89a8b7af2a05a5f375.bindPopup(popup_2fb351e1d3e54b53939661840369ee4e);
+
+            
+        
+    
+            var circle_marker_3c1915cbb7da415c9ee2bb9daa1b39ff = L.circleMarker(
+                [37.777120000000025,-122.41963999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_78c95f4e69e34f0d84661cc8b5b647b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_7b66f951db8b4db69942602e18038223 = $('<div id="html_7b66f951db8b4db69942602e18038223" style="width: 100.0%; height: 100.0%;">  San Francisco‎  - Cluster 2</div>')[0];
+                popup_78c95f4e69e34f0d84661cc8b5b647b8.setContent(html_7b66f951db8b4db69942602e18038223);
+            
+
+            circle_marker_3c1915cbb7da415c9ee2bb9daa1b39ff.bindPopup(popup_78c95f4e69e34f0d84661cc8b5b647b8);
+
+            
+        
+    
+            var circle_marker_d25ca3cf8494417dae0358d855d03a86 = L.circleMarker(
+                [37.52758087251249,-122.51334269637053],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_31b1cf6d821747058796413cc07deae6);
+            
+    
+            var popup_8013c7df141741d486055ba2b1e8cea3 = L.popup({maxWidth: '300'});
+
+            
+                var html_7142cbec2b7048e79f85ba7ab3be894b = $('<div id="html_7142cbec2b7048e79f85ba7ab3be894b" style="width: 100.0%; height: 100.0%;">  San Mateo County, California‎  - Cluster 2</div>')[0];
+                popup_8013c7df141741d486055ba2b1e8cea3.setContent(html_7142cbec2b7048e79f85ba7ab3be894b);
+            
+
+            circle_marker_d25ca3cf8494417dae0358d855d03a86.bindPopup(popup_8013c7df141741d486055ba2b1e8cea3);
+
+            
+        
+</script>
